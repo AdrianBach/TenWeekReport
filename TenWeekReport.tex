@@ -46,44 +46,51 @@ Very few successful implementations. (Ref:)
 \subsection{Problems faced in conflicts resolution}
 
 \subsubsection{Complexity}
+Ref: grimm1999individual, wilgen2011critical, runge2011uncertainty, schluter2013new,pretty much each article I've read.
 
 \subsubsection{Lack of data}
+Ref: rumff2011, all of them more of less.
 
 \subsubsection{Divergent interests between stakeholders}
+Ref: peterson2005conservation
 
 \subsubsection{Rigidity}
+Ref: geese case, apply a simple protection lead to population reaching conflictual numbers.
 
+Other limits in keith2011uncertainty about politics and self-serving.
 Unexpectedly, there is little  evidence that bigger budgets make conservation easier or more effective (Ref: game2013conservation)
 
 \subsection{More generally, uncertainty}
-At four different levels
+At four many levels: population dynamics, links between components of the ecosystems, type of estimation of the population, making the right decision without knowing precisely the outcomes, reaction of the users, politics, response of the system, ...
 
 \section{Adaptive management}
 
 \subsection{Purpose}
 
-how it deals with certain problems. 
+how it deals with certain problems. Acting while acquiring informations, learning from mistakes, closer to the system response to act as quickly as possible.
 
 \subsection{Modelling}
 
-need for it.\\
+need for it, because conservation complexity is usually beyond our direct understanding. Decision helping tools, capable of considering more features than we do simultaneously.\\
 examples. Ref: schluter2012, rumpff2011 (dealt with uncertainty by implementing different scenarios), brainbridge2017.
 
 \subsection{Limits}
 
 critics from game2013.\\
-Diversity, lack of common framework. Ref: schluter2012.\\
-unresolved problems.
+High diversity, lack of common framework. Ref: schluter2012.\\
+other unresolved problems from above.
 
 \subsection{MSE}
 
 Schema.
-All the problems it deals with. Ref: bunnefeld2011.\\
+All the problems it deals with. \\
 First implemented in fisheries than applied on terrestrial animals conservation. Ref: bunnefeld2011, bunnefeld2013.\\
 
-For a proper implementation, need for human decision-making modelling, because main reason for failure. Ref: schluter2012.
- 
+For a proper implementation, need for human decision-making modelling, because one of the main reasons for failures. Ref: schluter2012.
+
 \section{Decision-making modelling}
+
+Most successful approach is game theory, initiated by ??? in ??? in their book ??? economics.
 
 \subsection{Game theory}
 brief description. Ref: myerson1997.\\
@@ -92,13 +99,13 @@ Definition of the key concepts like utility. Ref: myerson1997.
 \subsection{Application to conservation conflicts}
 Ref: colyvan2011, Glynasti2018 (emphasize on the fact that it's recent).\\
 
-need for a model coupling all this.
+Recently developed a model coupling all this.
 \section{GMSE} Ref: duthie2018gmse
 
 \subsection{Formalisation of MSE framework}
 
 describe how it falls in MSE framework, how it deals with uncertainty at each level, consensus biases, long term foreseeing.\\
-Explain clearly what it is meant for.\\
+Explain clearly what it is meant for.
 
 \subsection{Decision-making artificial intelligence}
 
@@ -129,12 +136,35 @@ They have to be very closely related to conservation (to avoid making it a mere 
 Description. Ref: mason2017, brainbridge2017.
 Its attributes (liked with the limits of GMSE). 
 
-\subsection{Action threshold}
+from now on always speak about goose, state and farmers to settle the problem in the context of geese
 
-\subsection{Stakeholders behaviour}
+\subsection{Is waiting an interesting option for managers?}
 
-\subsection{Interaction}
+Recently introduced in iacona2017evolutionary: optimal delay before using funds.
+
+\subsubsection{Calculus of impact}
+Dr Ascelin Gordon: the difference in the variable of interest when manager acts or do nothing.\\
+Implementing the 'doing nothing' option in GMSE. Quantitatively assess the impact on repeated simulations. Mean deviation from conservation target at each time step.\\
+According to duthie2018gmse. The number of extinctions over several simulations increases exponentially with the frequence of manager non-intervention. So, I suspect it is going to show that doing nothing is not sustainable as a policy in itself. Surprise!
+But is it necessary to act as each time step, "as soon as possible"?
+
+\subsubsection{Action threshold}
+Currently in GMSE, a parameter sets the number of the manager's interventions per time step. Rigid, insensible to the situation, action if pop > ou < target, regardless of the size of this difference. acting even if the population if only a few individuals from the target.\\
+First, fixed deviation from manager's target as an action threshold. has to be relative the the population size though, if population size is 100, 50 individuals missing or extra is very concerning, yet it is less if population size is a hundred. For example I could test thresholds of 1, 5, 10, 20, \dots\\ 
+Quantitative assessment of the impact on the "quality" of the policy over repeated simulations for increasing threshold values: mean deviation from manager's target? Impact? Conflict reduction? number of extinctions? (Is there a chance that the result will be the same as the manager intervention frequency?)\\
+Dynamic threshold? A function of deviation from target, or conflict intensity, that would modify the action threshold.\\
+Waiting could imply saving a certain amount of budget for next step. Something that could also concern the users, maybe highlighting a best time to act.
+
+\subsection{Including human values in adaptive management}
+
+All conservationists have different goals according to their values, it would be interesting to implement this. Using the framework from futureconservation.org, I could use quantitative measures of conservationists values and attribute utilities accordingly, and assess if it indeed produce the expected results. Users yields and population size according to the value on nature - people axis, and to conservation - capitalism one. 
+
+\subsection{Standing alone: how to manage a conservation conflict with interacting users?}
+
+Possibly interaction among users, the information they perceive on their neighbours could influence their strategy.
 
 \section{Expected outputs}
+
+At least a paper on the action threshold, a talk in Newcastle, a poster in winter symposium, a participation at the Trondheim workshop. Updated version of GMSE. Field work for SNH, possibly in the policy team to which Aileen is close.
 
 \end{document}
