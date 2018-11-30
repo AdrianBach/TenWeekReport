@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {section}{\numberline {1}Conservation conflicts}{3}
 \contentsline {subsection}{\numberline {1.1}Conservation}{3}
 \contentsline {subsection}{\numberline {1.2}Conflicts}{3}
