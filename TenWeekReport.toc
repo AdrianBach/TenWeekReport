@@ -9,11 +9,11 @@
 \contentsline {section}{\numberline {2}Adaptive management}{4}
 \contentsline {subsection}{\numberline {2.1}Purpose}{4}
 \contentsline {subsection}{\numberline {2.2}Limits}{4}
-\contentsline {section}{\numberline {3}Modelling}{4}
-\contentsline {subsection}{\numberline {3.1}Different models used in literature}{4}
-\contentsline {section}{\numberline {4}Conflicts}{4}
-\contentsline {subsection}{\numberline {4.1}Divergent interests between stakeholders}{4}
-\contentsline {subsection}{\numberline {4.2}MSE}{4}
+\contentsline {section}{\numberline {3}Conflicts}{4}
+\contentsline {subsection}{\numberline {3.1}Divergent interests between stakeholders}{4}
+\contentsline {subsection}{\numberline {3.2}MSE}{4}
+\contentsline {section}{\numberline {4}Modelling}{4}
+\contentsline {subsection}{\numberline {4.1}Different models used in literature}{5}
 \contentsline {section}{\numberline {5}Decision-making modelling}{5}
 \contentsline {subsection}{\numberline {5.1}Game theory}{5}
 \contentsline {subsection}{\numberline {5.2}Application to conservation conflicts}{5}
@@ -21,8 +21,8 @@
 \contentsline {subsection}{\numberline {6.1}Formalisation of MSE framework}{5}
 \contentsline {subsection}{\numberline {6.2}First IBM in conservation}{5}
 \contentsline {subsection}{\numberline {6.3}Decision-making artificial intelligence}{5}
-\contentsline {subsection}{\numberline {6.4}limits}{5}
-\contentsline {subsubsection}{\numberline {6.4.1}Theoretical}{5}
+\contentsline {subsection}{\numberline {6.4}limits}{6}
+\contentsline {subsubsection}{\numberline {6.4.1}Theoretical}{6}
 \contentsline {subsubsection}{\numberline {6.4.2}Computational}{6}
 \contentsline {section}{\numberline {7}Research Questions}{6}
 \contentsline {subsection}{\numberline {7.1}Case study: Geese}{6}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  8 DEC 2018 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  8 DEC 2018 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -443,19 +443,18 @@ n input line 45.
 Package natbib Warning: Citation `wilgen2011critical' on page 3 undefined on in
 put line 45.
 
-
-Overfull \hbox (50.36565pt too wide) in paragraph at lines 64--66
-\OT1/cmr/m/n/12 lit-tle ev-i-dence that big-ger bud-gets make con-ser-va-tion e
-as-ier or more ef-fec-tive (Ref: game2013conservation) 
- []
-
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
@@ -478,7 +477,7 @@ ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on TenWeekReport.pdf (10 pages, 91034 bytes).
+Output written on TenWeekReport.pdf (10 pages, 91443 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
