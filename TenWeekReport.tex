@@ -131,54 +131,75 @@ It was successfully implemented in fisheries at first, and than applied on terre
 
 \section{Modelling}
 
-Since the prediction of these socio-ecosystems' response is hardly possible, any conservation frameworks benefits from a modelling approach.
-Conceptuals models allow for the rapid exploration of different scenarios, thus being very useful decision-helping tools.
-
-\subsection{Different models used in literature}
+Since an accurate prediction of these socio-ecosystems' response is hardly possible, any conservation frameworks benefits from a modelling approach.
+Conceptual models allow for the rapid exploration of different scenarios under certain hypotheses, thus being very useful decision-helping tools.
+%
+%\subsection{Different models used in literature}
 
 %Ref: schluter2012, rumpff2011 (dealt with uncertainty by implementing different scenarios), bainbridge2017.
-For example, \cite{rumpff2011state} used a bayesian network to model the transitions between the possible state of a landscape according to a policy, to plan for the restoration of different protected areas previously damaged by human activity.
-\citep{schluter2012new} 
-For a proper modelling framework for conservation conflicts, need for human decision-making modelling, because one of the main reasons for failures. Ref: schluter2012.
-
-High diversity, lack of common framework. Ref: schluter2012.\\
+For example, \cite{rumpff2011state} used a Bayesian network to model the transitions between the possible state of a landscape according to a policy, to plan for the restoration of different protected areas previously damaged by human activity.
+The book from \cite{schluter2012new} threw the stones of socio-ecological modelling in order to manage conservation involving human compliance (an extensive list of studies using modelling in conservation is presented in chapter 2.1).
+In its conclusion, the authors stated that a proper modelling framework for conservation conflicts needs human decision-making modelling, because unforeseen non-compliance was one of the main causes for failures.
+The high diversity of models also highlights the lack of common framework, to which MSE is a strong candidate.
 
 \section{Decision-making modelling}
 
-Most successful approach is game theory, initiated by ??? in ??? in their book ??? economics.
+Game Theory (GT), introduced by John Von Neumann and Oskar Morgenstern in 1944 in the book "The Theory of Games and Economic Behavior", is commonly recognized as the leading framework for decision-making modelling.
 
 \subsection{Game theory}
-brief description. Ref: myerson1997.\\
-Definition of the key concepts like utility. Ref: myerson1997.
+\cite{myerson1997game} describes it as follows: "\textit{the study of mathematical models of conflict and cooperation between intelligent rational decision makers [which choices] affect one another welfare}".
+\textit{Games} are simplified vision of actual conflicts, their actual complexity being unreachable.
+But such complexity would prevent us from understanding the fundamental issues of conflict and cooperation.
+As any other scientific work, game models deliberately omit less relevant details of actual situation to allow the study of particular phenomenon in the scope of a particular question.
+In these games, players act in order to maximise the expected value of the game's outcome, the so-called \textit{utility}.
+Utility is not necessarily quantified as monetary pay-off, it can be seen in many different ways (time, effort saved, well-being, happiness, ..) and even a mix of them.
+Game theoretical perspective can provide insights about: "the strategies different stakeholders will likely adopt given their objectives, [\dots] the range of possible outcomes, [\dots] and whether an optimal or satisfactory solution for all stakeholders can be reached simultaneously" \citep{COLYVAN20111246}.
+It was first used in Biology in \cite{maynard1973logic} to investigate the evolution of animal strategies in con-specific fights.
+%Definition of the key concepts like utility. Ref: myerson1997.
 
 \subsection{Application to conservation conflicts}
-Ref: colyvan2011, Glynasti2018 (emphasize on the fact that it's recent).\\
+\cite{COLYVAN20111246} investigated theoretical applications of the four main types of games (simple, chicken, stag and prisoner games) to Adaptive Management, but its actual implementation for conservation purposes is fairly novel. 
+\cite{glynatsi2018evolutionary} modelled the existing conflict between rhinos protection and illegal poaching for ivory as a common-pool resource problem, to assess which proportion of rhinos should be de-horned to minimize their killing, according to poacher being unconditional or selective killers.\\ %(figure \ref{rhino-poachers-game}).
+%\begin{figure}
+%	\includegraphics[scale=0.5]{rhinos-poachers-game.png}
+%	\caption{The game between rhino manager and rhino poachers. The system settles to one of two equilibriums, either devaluing is eff ective or not. N.E. Glynatsi et al.}
+%\end{figure}
+Recently, \cite{duthie2018} introduced  a model developed on MSE framework, that includes decision-making modelling within Game Theory.
 
-Recently developed a model coupling all this.
 \section{GMSE} Ref: duthie2018gmse. emphasize on its novelty.
 
 \subsection{Formalisation of MSE framework}
 
-describe how it falls in MSE framework, how it deals with uncertainty at each level, consensus biases, long term foreseeing.
-At four main levels: population dynamics, links between components of the ecosystems, type of estimation of the population, making the right decision without knowing precisely the outcomes, reaction of the users, politics, response of the system, ...\\
-Explain clearly what it is meant for.
-
-\subsection{First IBM in conservation}
-
-"Individualbased
-models (IBMs; also known as agent-based models) are
-used to model the behaviour of a system at an individual level
-by specifying simple rules for agents and allowing them to
-interact. These models allow for complex behaviour to emerge
-from simple interactions, though this comes at some cost to
-interpretation and analysis." Ref: hamblin2012parctical.
+%describe how it falls in MSE framework, how it deals with uncertainty at each level, consensus biases, long term foreseeing.
+%At four main levels: population dynamics, links between components of the ecosystems, type of estimation of the population, making the right decision without knowing precisely the outcomes, reaction of the users, politics, response of the system, ...\\
+%Explain clearly what it is meant for.
+GMSE is a mathematical formalisation of MSE framework, assigning each part a conceptual model.\\
+The population changes at each time step according to a spatially explicit, individual-based population dynamic model.\\
+Each individual is born, moves, and dies according to probabilities drawn in defined laws to account for the uncertainty on population dynamics.
+The population is monitored according to different definable techniques, some of which includes probabilities of detection, thus accounting for the uncertainty about the accuracy of monitoring.\\
+The manager model can be parametrized to reflect its conservation goals.
+It uses the information from the monitoring to set a policy.
+A policy is a set of possible actions associated with a cost for its performance.
+The manager has a given budget, and implementing a policy has a cost for him/her.\\
+The user model can be parametrized to reflect its aims concerning the population.
+There can be several users, and they are modelled independently.
+He/she has a given budget, and acts according to the number of actions he/she can perform according to their cost set by the manager, in order to achieve his/her goal.
+%\subsection{First IBM in conservation}
+%
+%"Individualbased
+%models (IBMs; also known as agent-based models) are
+%used to model the behaviour of a system at an individual level
+%by specifying simple rules for agents and allowing them to
+%interact. These models allow for complex behaviour to emerge
+%from simple interactions, though this comes at some cost to
+%interpretation and analysis." Ref: hamblin2012parctical.
 
 \subsection{Decision-making artificial intelligence}
 
 Genetic algorithm. Very accessible worded explanation. ref: hamblin2012practical\\
 How is it suited to human decision-making?\\
 Also used in solving game theoretical problems. Ref: Maynard Smith 1982.\\\
-An example of interaction between IBM and genetic algorithm was in hamblin2009, where the parameter governing the interaction rules in foraging ants where allowed to evolve through a GA. 
+An example of interaction between IBM and genetic algorithm was in hamblin2009, where the parameter governing the interaction rules in foraging ants where allowed to evolve through a GA.
 
 \subsection{limits}
 
