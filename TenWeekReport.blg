@@ -3,13 +3,10 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: TenWeekReport.aux
 The style file: humannat.bst
 Database file #1: 10WRbib.bib
-Warning--I didn't find a database entry for "brainbridge2017goose"
-Warning--I didn't find a database entry for "cusack2017time"
-Warning--I didn't find a database entry for "walters2011uncertainty"
-Warning--I didn't find a database entry for "wilgen2011critical"
+Warning--I didn't find a database entry for "behr2017"
 You've used 27 entries,
             2155 wiz_defined-function locations,
-            672 strings with 9603 characters,
+            669 strings with 9537 characters,
 and the built_in function-call counts, 12719 in all, are:
 = -- 1186
 > -- 650
@@ -48,4 +45,4 @@ warning$ -- 0
 while$ -- 86
 width$ -- 0
 write$ -- 361
-(There were 4 warnings)
+(There was 1 warning)

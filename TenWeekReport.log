@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  8 DEC 2018 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  14 DEC 2018 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,67 +420,65 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./TenWeekReport.toc [1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./TenWeekReport.toc)
 \tf@toc=\write3
 \openout3 = `TenWeekReport.toc'.
 
- [2]
+ [1
 
-Package natbib Warning: Citation `brainbridge2017goose' on page 3 undefined on 
-input line 40.
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.72398pt too wide) in paragraph at lines 50--55
+\OT1/cmr/m/n/12 in-clud-ing ecol-ogy, so-ci-ol-ogy, agron-omy and cli-ma-tol-og
+y si-mul-ta-ne-ously. In-deed, socio-ecosystems
+ []
+
+[2]
+
+LaTeX Warning: Reference `confoobio' on page 3 undefined on input line 102.
 
 
-Package natbib Warning: Citation `cusack2017time' on page 3 undefined on input 
-line 42.
+Package natbib Warning: Citation `behr2017' on page 3 undefined on input line 1
+05.
 
 
-Package natbib Warning: Citation `walters2011uncertainty' on page 3 undefined o
-n input line 45.
-
-
-Package natbib Warning: Citation `wilgen2011critical' on page 3 undefined on in
-put line 45.
+LaTeX Warning: Reference `msediagram' on page 3 undefined on input line 120.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 104--109
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[5] [6] [7] (./TenWeekReport.bbl [8] [9])
+[4] [5] [6] (./TenWeekReport.bbl [7] [8])
 
 Package natbib Warning: There were undefined citations.
 
-[10] (./TenWeekReport.aux) ) 
+[9] (./TenWeekReport.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2691 strings out of 493089
- 33849 string characters out of 6134842
+ 2690 strings out of 493089
+ 33800 string characters out of 6134842
  104528 words of memory out of 5000000
- 6158 multiletter control sequences out of 15000+600000
+ 6157 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,6n,24p,452b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on TenWeekReport.pdf (10 pages, 91443 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on TenWeekReport.pdf (9 pages, 93594 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

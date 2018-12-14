@@ -1,34 +1,27 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Conservation conflicts}{3}
-\contentsline {subsection}{\numberline {1.1}Conservation}{3}
-\contentsline {subsection}{\numberline {1.2}Problems faced in conservation}{3}
-\contentsline {subsubsection}{\numberline {1.2.1}Complexity}{3}
-\contentsline {subsubsection}{\numberline {1.2.2}Lack of data}{3}
-\contentsline {subsubsection}{\numberline {1.2.3}Rigidity}{3}
-\contentsline {subsection}{\numberline {1.3}More generally, uncertainty}{3}
-\contentsline {section}{\numberline {2}Adaptive management}{4}
-\contentsline {subsection}{\numberline {2.1}Purpose}{4}
-\contentsline {subsection}{\numberline {2.2}Limits}{4}
-\contentsline {section}{\numberline {3}Conflicts}{4}
-\contentsline {subsection}{\numberline {3.1}Divergent interests between stakeholders}{4}
-\contentsline {subsection}{\numberline {3.2}MSE}{4}
+\contentsline {section}{\numberline {1}Conservation}{2}
+\contentsline {subsection}{\numberline {1.1}Problems faced}{2}
+\contentsline {section}{\numberline {2}Adaptive management}{2}
+\contentsline {subsection}{\numberline {2.1}Limits}{3}
+\contentsline {section}{\numberline {3}Conflicts}{3}
+\contentsline {subsection}{\numberline {3.1}MSE}{3}
 \contentsline {section}{\numberline {4}Modelling}{4}
-\contentsline {subsection}{\numberline {4.1}Different models used in literature}{5}
-\contentsline {section}{\numberline {5}Decision-making modelling}{5}
-\contentsline {subsection}{\numberline {5.1}Game theory}{5}
-\contentsline {subsection}{\numberline {5.2}Application to conservation conflicts}{5}
-\contentsline {section}{\numberline {6}GMSE}{5}
-\contentsline {subsection}{\numberline {6.1}Formalisation of MSE framework}{5}
-\contentsline {subsection}{\numberline {6.2}First IBM in conservation}{5}
+\contentsline {subsection}{\numberline {4.1}Different models used in literature}{4}
+\contentsline {section}{\numberline {5}Decision-making modelling}{4}
+\contentsline {subsection}{\numberline {5.1}Game theory}{4}
+\contentsline {subsection}{\numberline {5.2}Application to conservation conflicts}{4}
+\contentsline {section}{\numberline {6}GMSE}{4}
+\contentsline {subsection}{\numberline {6.1}Formalisation of MSE framework}{4}
+\contentsline {subsection}{\numberline {6.2}First IBM in conservation}{4}
 \contentsline {subsection}{\numberline {6.3}Decision-making artificial intelligence}{5}
-\contentsline {subsection}{\numberline {6.4}limits}{6}
-\contentsline {subsubsection}{\numberline {6.4.1}Theoretical}{6}
-\contentsline {subsubsection}{\numberline {6.4.2}Computational}{6}
-\contentsline {section}{\numberline {7}Research Questions}{6}
-\contentsline {subsection}{\numberline {7.1}Case study: Geese}{6}
-\contentsline {subsection}{\numberline {7.2}Is waiting an interesting option for managers?}{6}
-\contentsline {subsubsection}{\numberline {7.2.1}Calculus of impact}{6}
+\contentsline {subsection}{\numberline {6.4}limits}{5}
+\contentsline {subsubsection}{\numberline {6.4.1}Theoretical}{5}
+\contentsline {subsubsection}{\numberline {6.4.2}Computational}{5}
+\contentsline {section}{\numberline {7}Research Questions}{5}
+\contentsline {subsection}{\numberline {7.1}Case study: Geese}{5}
+\contentsline {subsection}{\numberline {7.2}Is waiting an interesting option for managers?}{5}
+\contentsline {subsubsection}{\numberline {7.2.1}Calculus of impact}{5}
 \contentsline {subsubsection}{\numberline {7.2.2}Action threshold}{6}
-\contentsline {subsection}{\numberline {7.3}Including human values in adaptive management}{7}
-\contentsline {subsection}{\numberline {7.4}Standing alone: how to manage a conservation conflict with interacting users?}{7}
-\contentsline {section}{\numberline {8}Expected outputs}{7}
+\contentsline {subsection}{\numberline {7.3}Including human values in adaptive management}{6}
+\contentsline {subsection}{\numberline {7.4}Standing alone: how to manage a conservation conflict with interacting users?}{6}
+\contentsline {section}{\numberline {8}Expected outputs}{6}
