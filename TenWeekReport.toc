@@ -1,14 +1,14 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Context}{2}
-\contentsline {subsection}{\numberline {1.1}Conservation}{2}
-\contentsline {subsection}{\numberline {1.2}Adaptive management}{2}
-\contentsline {subsection}{\numberline {1.3}Conflicts}{3}
-\contentsline {subsection}{\numberline {1.4}Modelling}{3}
-\contentsline {section}{\numberline {2}GMSE}{4}
-\contentsline {subsection}{\numberline {2.1}Formalisation of MSE framework}{4}
-\contentsline {subsection}{\numberline {2.2}Decision-making artificial intelligence}{5}
-\contentsline {section}{\numberline {3}Research Questions}{6}
-\contentsline {subsection}{\numberline {3.1}Case study: Geese}{6}
-\contentsline {subsection}{\numberline {3.2}How does flexibility in policy updating frequency affect geese management strategy efficiency?}{6}
-\contentsline {subsection}{\numberline {3.3}How to manage geese population efficiently taking into account interactions between stakeholders?}{7}
-\contentsline {subsection}{\numberline {3.4}Next challenges}{8}
+\contentsline {section}{\numberline {1}Context}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Conservation}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Adaptive management}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Conflicts}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Modelling}{4}{subsection.1.4}
+\contentsline {section}{\numberline {2}GMSE}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Formalisation of MSE framework}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Decision-making artificial intelligence}{6}{subsection.2.2}
+\contentsline {section}{\numberline {3}Research Questions}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Case study: Geese}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}How does flexibility in policy updating frequency affect geese management strategy efficiency?}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}How to manage geese population efficiently taking into account interactions between stakeholders?}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Next challenges}{9}{subsection.3.4}
