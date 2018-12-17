@@ -7,12 +7,8 @@
 \contentsline {section}{\numberline {2}GMSE}{4}
 \contentsline {subsection}{\numberline {2.1}Formalisation of MSE framework}{4}
 \contentsline {subsection}{\numberline {2.2}Decision-making artificial intelligence}{5}
-\contentsline {subsection}{\numberline {2.3}limits}{5}
 \contentsline {section}{\numberline {3}Research Questions}{6}
 \contentsline {subsection}{\numberline {3.1}Case study: Geese}{6}
-\contentsline {subsection}{\numberline {3.2}Is waiting an interesting option for managers?}{6}
-\contentsline {subsubsection}{\numberline {3.2.1}Calculus of impact}{6}
-\contentsline {subsubsection}{\numberline {3.2.2}Action threshold}{6}
-\contentsline {subsection}{\numberline {3.3}Including human values in adaptive management}{6}
-\contentsline {subsection}{\numberline {3.4}Standing alone: how to manage a conservation conflict with interacting users?}{7}
-\contentsline {section}{\numberline {4}Expected outputs}{7}
+\contentsline {subsection}{\numberline {3.2}How does flexibility in policy updating frequency affect geese management strategy efficiency?}{6}
+\contentsline {subsection}{\numberline {3.3}How to manage geese population efficiently taking into account interactions between stakeholders?}{7}
+\contentsline {subsection}{\numberline {3.4}Next challenges}{8}
