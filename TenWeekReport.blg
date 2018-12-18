@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: TenWeekReport.aux
 The style file: humannat.bst
 Database file #1: 10WRbib.bib
-You've used 28 entries,
+You've used 29 entries,
             2155 wiz_defined-function locations,
-            674 strings with 9710 characters,
-and the built_in function-call counts, 13140 in all, are:
-= -- 1226
-> -- 667
+            680 strings with 10031 characters,
+and the built_in function-call counts, 13816 in all, are:
+= -- 1285
+> -- 724
 < -- 6
-+ -- 256
-- -- 246
-* -- 1315
-:= -- 2300
-add.period$ -- 89
-call.type$ -- 28
-change.case$ -- 261
-chr.to.int$ -- 28
-cite$ -- 28
-duplicate$ -- 389
-empty$ -- 844
-format.name$ -- 278
-if$ -- 2498
++ -- 278
+- -- 268
+* -- 1389
+:= -- 2422
+add.period$ -- 92
+call.type$ -- 29
+change.case$ -- 276
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 403
+empty$ -- 874
+format.name$ -- 301
+if$ -- 2620
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 148
-num.names$ -- 84
-pop$ -- 204
+missing$ -- 31
+newline$ -- 153
+num.names$ -- 87
+pop$ -- 217
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 277
 quote$ -- 0
-skip$ -- 284
+skip$ -- 295
 stack$ -- 0
-substring$ -- 984
-swap$ -- 56
+substring$ -- 1021
+swap$ -- 58
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
+type$ -- 170
 warning$ -- 0
-while$ -- 89
+while$ -- 93
 width$ -- 0
-write$ -- 374
+write$ -- 387

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,18 +709,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--59
 
  []
 
-[2] <confoobio-cases.png, id=129, 831.105pt x 616.3025pt>
+[2] <confoobio-cases.png, id=131, 831.105pt x 616.3025pt>
 File: confoobio-cases.png Graphic file (type png)
 
 <use confoobio-cases.png>
-Package pdftex.def Info: confoobio-cases.png used on input line 119.
+Package pdftex.def Info: confoobio-cases.png used on input line 122.
 (pdftex.def)             Requested size: 415.55148pt x 308.1505pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  []
 
-[3 <./confoobio-cases.png>] <msediagram.png, id=143, 679.53876pt x 425.59pt>
+[3 <./confoobio-cases.png>] <msediagram.png, id=145, 679.53876pt x 425.59pt>
 File: msediagram.png Graphic file (type png)
 
 <use msediagram.png>
@@ -736,7 +736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--207
 
  []
 
-<gmse-diagram.png, id=181, 854.19125pt x 509.905pt>
+<gmse-diagram.png, id=183, 854.19125pt x 509.905pt>
 File: gmse-diagram.png Graphic file (type png)
  <use gmse-diagram.png>
 Package pdftex.def Info: gmse-diagram.png used on input line 220.
@@ -770,10 +770,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 7584 strings out of 493029
- 107004 string characters out of 6136233
- 209713 words of memory out of 5000000
- 10958 multiletter control sequences out of 15000+600000
+ 7588 strings out of 493029
+ 107129 string characters out of 6136233
+ 209747 words of memory out of 5000000
+ 10961 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,7n,28p,1226b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -783,10 +783,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TenWeekReport.pdf (12 pages, 709195 bytes).
+Output written on TenWeekReport.pdf (12 pages, 710517 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

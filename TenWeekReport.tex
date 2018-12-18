@@ -112,7 +112,10 @@ A major concern in current conservation is that, even if a policy effectively pr
 \subsection{Conflicts}
 
 This is when conflicts arise, because people impacted by a protected population's growth are very likely to defect conservation policies, which can be threatening for the species persistence.
-Definition of a conflict. Ref: Redpath's book. (to complete tomorrow morning)\\
+%Definition of a conflict. Ref: Redpath's book. (to complete tomorrow morning)\\
+In \cite{redpath2013understanding}, conflict is defined as "\textit{situations that occur when two or more parties with strongly held opinions clash over conservation objectives and when one party is perceived to assert its interests at the expense of another}".
+%There are some more examples in (Redpath's book, redpath2013) with leopards etc. (to complete tomorrow morning)
+%and in \cite{behr2017combining} with wolves and livestock in the french Alps. 
 ConFooBio (Conservation, Food and Biodiversity) is a gathering of well monitored cases of conservation conflicts (see figure \ref{confoobio}).\\
 \begin{figure}
 	\centering
@@ -120,9 +123,6 @@ ConFooBio (Conservation, Food and Biodiversity) is a gathering of well monitored
 	\caption{The cases of conservation conflicts on which the ConFooBio project is focused.}
 	\label{confoobio}
 \end{figure}
-There are some more examples in (Redpath's book, redpath2013) with leopards etc. (to complete tomorrow morning)
-%mason2017.
-and in \cite{behr2017combining} with wolves and livestock in the french Alps.
 %, or Rhinos conservation and illegal poaching for Ivory in south Africa \citep{glynatsi2018evolutionary}.
 %Resolving these conflicts requires effective management strategies.
 %Management strategy: a sequence of actions on the system in order to achieve goals.\\
@@ -130,14 +130,14 @@ and in \cite{behr2017combining} with wolves and livestock in the french Alps.
 
 %\subsection{Divergent interests between stakeholders}
 In these conflicts, the divergence of stakeholders interests makes conservation even more complicated.
-Yet, meeting every stakeholder interests is the only way for a management policy to be sustainable.
+Yet, meeting every stakeholder interests is the only way for a management policy to be sustainable \citep{redpath2013understanding}.
 Indeed, farmers are usually way more interested in the yield they live on, then in the survival of the species that is part of its decreasing.
 Reaching a consensus on a target for the population can therefore be an unproductive process.
 Moreover, it can prevent the situation from changing in a more equitable way \citep{peterson2005conservation}.\\
 %
 %\subsection{MSE}
 
-Management Strategy Evaluation is a framework that describes the process of Adaptive Management in conflictual situations.
+Management Strategy Evaluation is a framework that describes the process of Adaptive Management in the situation of conservation conflicts.
 It decomposes the problem in four main parts: manager's policy updating, user's harvest strategy, the species population and the mode of estimation of the population (see figure \ref{msediagram}).
 \begin{figure}
 	\centering
@@ -175,7 +175,7 @@ Game Theory (GT), introduced by John Von Neumann and Oskar Morgenstern in 1944 i
 %\subsection{Game theory}
 \cite{myerson1997game} describes GT as follows: "\textit{the study of mathematical models of conflict and cooperation between intelligent rational decision makers [which choices] affect one another welfare}".
 \textit{Games} are simplified vision of actual conflicts, their actual complexity being unreachable.
-But such complexity can prevent from understanding the fundamental issues of conflict and cooperation.
+But such complexity can prevent from understanding the fundamental issues of conflict. %and cooperation.
 As any other scientific work, game models deliberately omit less relevant details of actual situation to allow the study of particular phenomenon in the scope of a particular question.
 
 In these games, players act in order to maximise the expected value of the game's outcome, the so-called \textit{utility}.
@@ -187,7 +187,7 @@ It was first used in Biology in \cite{maynard1973logic} to investigate the evolu
 
 %\subsection{Application to conservation conflicts}
 \cite{COLYVAN20111246} investigated theoretical applications of the four main types of games (simple, chicken, stag and prisoner games) to Adaptive Management, but its actual implementation for conservation purposes is fairly novel. 
-\cite{glynatsi2018evolutionary} modelled the conflict between rhinos protection and illegal poaching for ivory as a common-pool resource problem, to assess which proportion of rhinos should be de-horned to minimize their killing, according to poacher being unconditional or selective killers.\\ %(figure \ref{rhino-poachers-game}).
+\cite{glynatsi2018evolutionary} modelled the conflict over rhinos protection and illegal poaching for ivory as a common-pool resource problem, to assess which proportion of rhinos should be de-horned to minimize their killing, according to poacher being unconditional or selective killers.\\ %(figure \ref{rhino-poachers-game}).
 %\begin{figure}
 %	\includegraphics[scale=0.5]{rhinos-poachers-game.png}
 %	\caption{The game between rhino manager and rhino poachers. The system settles to one of two equilibriums, either devaluing is eff ective or not. N.E. Glynatsi et al.}
@@ -279,19 +279,19 @@ Another feature that could be explored is the frequency of policy updating, curr
 \section{Research Questions}
 %They have to be very closely related to conservation (to avoid making it a mere modelling project)
 I will focus on an actual case study of conservation conflict to keep GMSE development into a down-to-earth situation, and parametrize simulations with actual measures from the field.
-I chose the case of conflict between geese population and farming on the Isle of Islay (Scotland) as it is a well documented case, with very accessible data within the team.
+I chose the case of conflict over geese population and farming on the Isle of Islay (Scotland) as it is a well documented case, with very accessible data within the team.
 
 \subsection{Case study: Geese}
 
 %Description. Ref: mason2017, brainbridge2017.
 Geese endangered status was recognised during the 1940's, and is believed to result from a combination of hunting for food and sport, systematic persecution and the disruption of the Second World War.
-The protection measures were really efficient as, in the 1980's, all geese species population numbers increased significantly.
+In the 1980's, all geese species population numbers increased significantly, most likely as a consequence of improved protection, paired with land-use and climate change \citep{mason2017changing}.
 But this rise in population started a conflict with farmers in Special Protection Areas, as geese were intensely grazing their crops.
 %Especially for farmers owning culture in Special Protection Areas required by the European Bird Collective.
 The first arrangements between the state and these farmers concerning geese control were made in the early 1990's, in the form of payments from government for farmers to allow undisturbed grazing on certain areas, and scare them away in others areas.
-Yet, some populations are still increasing nowadays, and farmers started to consider the financial compensation too low for the damages caused.
-But Scottish government refused to increase them for financial reasons.
-%Farmers then started to control the population by means unapproved by the conservation scheme \citep{bainbridge2017goose}.
+Yet, some populations are still increasing, and farmers started to consider the financial compensation too low for the damages caused.
+But Scottish government refused to increase them for financial reasons \citep{bainbridge2017goose}.
+%Farmers then started to control the population by means unapproved by the conservation scheme .
 
 %Its attributes (liked with the limits of GMSE).
 This case is particularly adapted to work the development of GMSE, because it is a small-scale case of conservation conflict, involving a handleable number of neighbouring users, that are very likely to interact in different interesting ways.
