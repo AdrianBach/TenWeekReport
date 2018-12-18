@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  18 DEC 2018 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.22)  18 DEC 2018 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,76 +620,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--70
 
  []
 
-[2] <confoobio-cases.png, id=131, 831.105pt x 616.3025pt>
+[2] <confoobio-cases.png, id=127, 831.105pt x 616.3025pt>
 File: confoobio-cases.png Graphic file (type png)
 
 <use confoobio-cases.png>
-Package pdftex.def Info: confoobio-cases.png used on input line 132.
+Package pdftex.def Info: confoobio-cases.png used on input line 144.
 (pdftex.def)             Requested size: 415.55148pt x 308.1505pt.
- <msediagram.png, id=136, 679.53876pt x 425.59pt>
-File: msediagram.png Graphic file (type png)
 
-<use msediagram.png>
-Package pdftex.def Info: msediagram.png used on input line 151.
-(pdftex.def)             Requested size: 339.76855pt x 212.79446pt.
- [3 <./confoobio-cases.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 175--181
+Underfull \hbox (badness 10000) in paragraph at lines 137--158
 
  []
 
-[4 <./msediagram.png>] <gmse-diagram.png, id=184, 854.19125pt x 509.905pt>
+[3 <./confoobio-cases.png>] <msediagram.png, id=140, 679.53876pt x 425.59pt>
+File: msediagram.png Graphic file (type png)
+
+<use msediagram.png>
+Package pdftex.def Info: msediagram.png used on input line 163.
+(pdftex.def)             Requested size: 339.76855pt x 212.79446pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--193
+
+ []
+
+[4 <./msediagram.png>] <gmse-diagram.png, id=181, 854.19125pt x 509.905pt>
 File: gmse-diagram.png Graphic file (type png)
 
 <use gmse-diagram.png>
-Package pdftex.def Info: gmse-diagram.png used on input line 227.
+Package pdftex.def Info: gmse-diagram.png used on input line 239.
 (pdftex.def)             Requested size: 298.97142pt x 178.46942pt.
  [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 243.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 255.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
  [6 <./gmse-diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
+Underfull \hbox (badness 10000) in paragraph at lines 345--349
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 
-LaTeX Warning: Reference `dynamicA' on page 8 undefined on input line 357.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--363
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
 
  []
 
 [8] [9] (./TenWeekReport.bbl [10] [11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
  (./TenWeekReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
 Package rerunfilecheck Info: File `TenWeekReport.out' has not changed.
 (rerunfilecheck)             Checksum: F1F645FE16D465C2812A8BCF0BBF063D;969.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 7487 strings out of 493089
- 107033 string characters out of 6134842
+ 7486 strings out of 493089
+ 107023 string characters out of 6134842
  208437 words of memory out of 5000000
- 10809 multiletter control sequences out of 15000+600000
+ 10808 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,7n,28p,1066b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -699,10 +697,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TenWeekReport.pdf (12 pages, 701718 bytes).
+Output written on TenWeekReport.pdf (12 pages, 701871 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
  60 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
