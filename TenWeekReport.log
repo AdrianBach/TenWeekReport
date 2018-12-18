@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,65 +709,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--59
 
  []
 
-[2] <confoobio-cases.png, id=130, 831.105pt x 616.3025pt>
+[2] <confoobio-cases.png, id=129, 831.105pt x 616.3025pt>
 File: confoobio-cases.png Graphic file (type png)
 
 <use confoobio-cases.png>
-Package pdftex.def Info: confoobio-cases.png used on input line 116.
+Package pdftex.def Info: confoobio-cases.png used on input line 119.
 (pdftex.def)             Requested size: 415.55148pt x 308.1505pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--136
+Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  []
 
-[3 <./confoobio-cases.png>] <msediagram.png, id=144, 679.53876pt x 425.59pt>
+[3 <./confoobio-cases.png>] <msediagram.png, id=143, 679.53876pt x 425.59pt>
 File: msediagram.png Graphic file (type png)
 
 <use msediagram.png>
-Package pdftex.def Info: msediagram.png used on input line 141.
+Package pdftex.def Info: msediagram.png used on input line 144.
 (pdftex.def)             Requested size: 339.76855pt x 212.79446pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--169
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 
  []
 
 [4 <./msediagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+Underfull \hbox (badness 10000) in paragraph at lines 204--207
 
  []
 
-<gmse-diagram.png, id=182, 854.19125pt x 509.905pt>
+<gmse-diagram.png, id=181, 854.19125pt x 509.905pt>
 File: gmse-diagram.png Graphic file (type png)
  <use gmse-diagram.png>
-Package pdftex.def Info: gmse-diagram.png used on input line 217.
+Package pdftex.def Info: gmse-diagram.png used on input line 220.
 (pdftex.def)             Requested size: 298.97142pt x 178.46942pt.
 
 [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 232.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 235.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 232.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 235.
  [6 <./gmse-diagram.png>] [7]
 
-LaTeX Warning: Reference `dynamicA' on page 8 undefined on input line 347.
+LaTeX Warning: Reference `dynamicA' on page 8 undefined on input line 350.
 
 [8] [9] (./TenWeekReport.bbl [10] [11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
  (./TenWeekReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `TenWeekReport.out' has not changed.
 (rerunfilecheck)             Checksum: F1F645FE16D465C2812A8BCF0BBF063D;969.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
  7584 strings out of 493029
@@ -783,10 +783,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TenWeekReport.pdf (12 pages, 709298 bytes).
+Output written on TenWeekReport.pdf (12 pages, 709195 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
+ 285 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
