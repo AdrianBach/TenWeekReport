@@ -265,16 +265,16 @@ If these condition are fulfilled, there should not be any reason left for confli
 %How is it suited to human decision-making?\\
 %Also used in solving game theoretical problems. Ref: Maynard Smith 1982.\\\
 %An example of interaction between IBM and genetic algorithm was in hamblin2009, where the parameter governing the interaction rules in foraging ants where allowed to evolve through a GA.
-The manager's and the users' decision are made by calling a Genetic Algorithm (GA) - a form of Artificial Intelligence (AI).
-Initially, GA were used to model the evolution of allele frequencies in a population under stochastic recombination and mutation.
-It has previously been used in combination with an individual-based model in a ant collective foraging model, where the parameter governing the interaction rules was allowed to evolve according to a GA \citep{hamblin2013practical}.
+The manager's and the users' decisions are made by calling a Genetic Algorithm (GA) - a form of Artificial Intelligence (AI).
+Initially, GAs were used to model the evolution of allele frequencies in a population under stochastic recombination and mutation. % BD: Citation?
+It has previously been used in combination with an individual-based model in a ant collective foraging model, where the parameter governing the interaction rules was allowed to evolve according to a GA \citep{hamblin2013practical}. % BD: I can't find the ant collective foraging model in hamblin2013practical -- is there another citation to this?
 Although this algorithm was not exactly successful in mimicking evolution, it inspired a new kind of Artificial Intelligence.
 
-Here, a population of random strategies (a list of costs associated to actions) of a given size is initiated, and then allowed to change through stochastic mutation and crossing-over.
+Here, a population of random strategies of a given size is initiated, and then allowed to change through stochastic mutation and crossing-over. 
 Each strategy's fitness to the decision-maker criteria is assessed, and the fittest are allowed to reproduce.
-The process is repeated until the increase in fitness between the current fittest stategy and the previous one falls under a defined threshold.
+The process is repeated until the increase in fitness between the current fittest stategy and the previous one falls under a defined threshold and some minimum number of GA generations have passed.
 
-It is particularly well fitted to human decision-making in this context, because due to the complexity of the problem, the decision-maker does not know in advance the best choice, but can judge if a choice is better than another.
+The GA is particularly well fitted to human decision-making in this context, because due to the complexity of the problem, the decision-maker does not know in advance the best choice, but can judge if a choice is better than another.
 Furthermore, humans are usually not able to explore all the possibilities to choose the best one, they rather select the best among the one they could think of.
 %
 %\subsection{Opportunities for further development}
