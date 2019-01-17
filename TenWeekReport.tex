@@ -220,20 +220,20 @@ And finally, a model developed on MSE framework, including decision-making model
 %describe how it falls in MSE framework, how it deals with uncertainty at each level, consensus biases, long term foreseeing.
 %At four main levels: population dynamics, links between components of the ecosystems, type of estimation of the population, making the right decision without knowing precisely the outcomes, reaction of the users, politics, response of the system, ...\\
 %Explain clearly what it is meant for.
-GMSE is a formalisation of MSE framework, assigning each part a mathematical model.
+GMSE is a formalisation of MSE framework, assigning each part a mathematical model. % BD: I wouldn't necessarily say that GMSE is a formalisation of the framework so much as a generalisation of the traditional framework that integrates game theory and AI. The default models of the GMSE software include some mathematics, but are otherwise individual-based.
 It aims at exploring the long-term consequence of a given management strategy, in order to test its effectiveness, and highlight problems managers would eventually not have thought of.
-GMSE can be used both for research \citep{cusack2018time}, and application to conservation conflict cases \citep{bainbridge2017goose}.
-
+GMSE can be applied both for research \citep{cusack2018time}, and application to conservation conflict cases \citep{bainbridge2017goose}.
+% BD: It might be useful to break this up into sub-sections, or walk the reader through each sub-model in paragraph form. Good focusing on the default population model as individual-based and spatially explicit, but you might need a bit more detail to explain this to readers who are unfamiliar with IBMs -- what's the difference between an IBM and a mathematical model, and what are its advantages and disadvantages?
 Concerning the mathematical models, the population changes at each time step according to a spatially explicit, individual-based, population dynamic model.
 Each individual is born, moves, and dies according to probabilities drawn in defined laws to account for the uncertainty linked with population dynamics.\\
-The population is monitored according to different definable techniques, some of which includes probabilities of detection, thus accounting for the uncertainty about the accuracy of monitoring.\\
-The manager model can be parametrized to reflect its conservation goals.
+The population is monitored according to different definable techniques, some of which includes probabilities of detection, thus accounting for the uncertainty about the accuracy of monitoring.\\ % BD: You might want to tie this in with the 'virtual ecologist' approach in the literature. See: (1) Zurell, D., Berger, U., Cabral, J. S., Jeltsch, F., Meynard, C. N., Münkemüller, T., ... Grimm, V. (2010). The virtual ecologist approach: Simulating data and observers. Oikos, 119(4), 622–635. https://doi.org/10.1111/j.1600-0706.2009.18284.x (2) Nuno, A., Bunnefeld, N., & Milner-Gulland, E. J. (2013). Matching observations and reality: Using simulation models to improve monitoring under uncertainty in the Serengeti. Journal of Applied Ecology, 50(2), 488–498. https://doi.org/10.1111/1365-2664.12051 (3) Grimm, V., Wyszomirski, T., Aikman, D., & Uchman'ski, J. (1999). Individual-based modelling and ecological theory: synthesis of a workshop. Ecological Modelling, 115, 275–282.
+The manager model can be parametrized to reflect its conservation goals. % BD: Maybe a bit more on what these conservation goals are (linking to your earlier point about targets).
 It uses the information from the monitoring to set a policy.
-A policy is a set of possible actions associated with a cost for their performing.
-The manager has a given budget, and implementing a policy implies a cost for him/her.\\
+A policy is a set of possible actions associated with a cost for their performing. % BD: Technicality, but I would not say that a policy is a set of possible actions, but rather a set of actions drawn from a list of all possible actions available (in GMSE). 
+The manager has a given budget, and implementing a policy implies a cost for them.\\ % BD: Might be easier to start with the manager's budget, then work to the specifics of policy actions, including the specific actions available.
 The user model is individual-based, and each user can be parametrized to reflect its interests concerning the population.
-There can be several users, and they are modelled independently.
-Each has a given budget, and acts according to the number of actions she/he can perform according to their cost set by the manager, in order to achieve his/her goal (figure \ref{gmse-diagram}).
+There can be any natural number of users, and users' decision-making and actions are modelled independently.
+Each has a given budget and acts according to the number of actions they can perform according to their cost set by the manager, in order to achieve his/her goal (figure \ref{gmse-diagram}). % BD: Should link this back to policy, and make clearer that users incur a cost for each action which varies according to how the manager has set policy.
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.35]{gmse-diagram.png}
@@ -250,7 +250,7 @@ Each has a given budget, and acts according to the number of actions she/he can 
 %from simple interactions, though this comes at some cost to
 %interpretation and analysis." Ref: hamblin2012parctical.
 
-According to MSE framework, a policy is effective when, after the chosen period of management:
+According to MSE framework, a policy is effective when, after the chosen period of management: % BD: Citation? I think these are good criteria, but are they really part of the framework, or did  you develop them yourself?
 \begin{itemize}
     \item The population (i) does not go extinct and (ii) stabilizes around the conservation target.
     \item The users' yield reaches a satisfactory percentage.
