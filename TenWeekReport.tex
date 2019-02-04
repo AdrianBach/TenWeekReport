@@ -370,7 +370,8 @@ I chose the case of conflict over geese population and farming on the Isle of Is
 \subsection{Case study: Geese}
 
 %Description. Ref: mason2017, brainbridge2017.
-The endangered status of geese was recognised during the 1940s, and is believed to result from a combination of hunting for food and recreation, systematic persecution and the disruption of the Second World War. % BD: I'm told that hunters prefer the term 'recreation' to 'sport', though I'll confess that I'm entirely sure I understand what the difference is.
+The endangered status of geese was recognised during the 1940s, and is believed to result from a combination of hunting for food and recreation, systematic persecution and the disruption of the Second World War.
+% BD: I'm told that hunters prefer the term 'recreation' to 'sport', though I'll confess that I'm entirely sure I understand what the difference is.x
 In the 1980s, all geese species population numbers increased significantly, most likely as a consequence of improved protection, paired with land-use and climate change \citep{mason2017changing}.
 But this rise in population started a conflict with farmers in Special Protection Areas, as geese were intensely grazing their crops.
 %Especially for farmers owning culture in Special Protection Areas required by the European Bird Collective.
@@ -393,13 +394,19 @@ Furthermore, this situation could clearly benefit from the results of this proje
 %Dynamic threshold? A function of deviation from target, or conflict intensity, that would modify the action threshold.\\
 %Waiting could imply saving a certain amount of budget for next step. Something that could also concern the users, maybe highlighting a best time to act.
 %Recently introduced in iacona2017evolutionary: optimal delay before using funds.
-Optimal growth in finances, or plant, sometimes includes doing nothing. % BD: I think this could be clearer -- do you mean that the best action to take to manage a population (or a business, perhaps) is to not attempt a change in action (i.e., "if it's not broken, don't try to fix it").
-More precisely, to invest less resources than usual in buying (balancing consumption and capital investment) or reproduction (less investment in seeds or flowers and more in root stock or growth, waiting for a less unsuitable or competitive time) for a certain amount of time. % BD: I like how you've explained this -- I wonder if it might be useful to find some examples in history (conservation or others) in which not doing anything would be preferable to any other action? There are of course, plenty of examples in which doing nothing would have been preferable to what was *actually* done (cane toads in Australia come to mind -- which were originally meant to control the cane beetle, but were wildly ineffective), but I can't think of anything off hand in which leaving things alone was concluded to be the best option -- they must be out there in the literature somewhere.
+Optimal growth in finances, or plant, sometimes includes doing nothing.
+
+% BD: I think this could be clearer -- do you mean that the best action to take to manage a population (or a business, perhaps) is to not attempt a change in action (i.e., "if it's not broken, don't try to fix it").
+
+More precisely, to invest less resources than usual in buying (balancing consumption and capital investment) or reproduction (less investment in seeds or flowers and more in root stock or growth, waiting for a less unsuitable or competitive time) for a certain amount of time.
+
+% BD: I like how you've explained this -- I wonder if it might be useful to find some examples in history (conservation or others) in which not doing anything would be preferable to any other action? There are of course, plenty of examples in which doing nothing would have been preferable to what was *actually* done (cane toads in Australia come to mind -- which were originally meant to control the cane beetle, but were wildly ineffective), but I can't think of anything off hand in which leaving things alone was concluded to be the best option -- they must be out there in the literature somewhere.
+
 Since the problems conservation is dealing with are often irreversible, managers are used to invest financial resources in acting as soon as they get them.
 %Optimal growth concept applied to management strategy shows that investing in other domains than policy application is sometimes more profitable for conservation goals, if the possible outcome outweigh the increase in threat in the meantime.
 %By doing nothing, authors mean invest in other domains than policy application, such as research, monitoring, or even other lucrative placements.
 %But only if the possible outcome outweigh the increase in threat in the meantime.\\
-Indeed, the complexity of conservation problems results in temporal heterogeneity, so acting can be more efficient at certain moments than others, if the possible outcome outweigh the increase in threat to the protected species in the meantime.
+Yet, the complexity of conservation problems results in temporal heterogeneity, so acting can be more efficient at certain moments than others, if the possible outcome outweigh the increase in threat to the protected species in the meantime.
 %Just as conservation outcomes can be improved by "identifying the most efficient locations to act in space",
 Thus, finding the best time to act could lead to more efficient management strategies \citep{Iacona2017waiting}.
 %
@@ -407,7 +414,15 @@ Thus, finding the best time to act could lead to more efficient management strat
 %In \cite{gordon2011assessing}, the efficiency of offsetting is assessed by the "impact" of the policy implementation.
 %It is the difference in the amount of native habitat loss when offsetting or not.
 %This could be a interesting condition to assess whether manager should update the policy at this time or not. PAS A LA BONNE PLACE
-According to MSE framework, a policy is effective when, after the chosen period of management:
+
+Currently in GMSE, a parameter sets the number of the manager's interventions per time step, and according to \cite{duthie2018}, the number of extinctions over several simulations decreases exponentially with increasing frequency of manager intervention.
+%So, I suspect it is going to show that doing nothing is not sustainable as a policy in itself. Surprise!
+But does this mean acting as soon as possible is always an efficient strategy?\\
+% BD: This is good, and it might be useful to also think about what constitutes 'efficient strategy' in this case -- this will almost certainly relate to both the strategy objectives (e.g., how close to the target density do you want to be, or how much do you want to minimise the extinction risk) and the use of time and money (budget, perhaps in this case). You could make the argument that although a strategy might maintain the population most closely to the target density when a lot of effort is expended (in terms of time and money spent), the gains in terms of minimising the deviation from target become more expensive than they are worth in some cases, and it would therefore be more efficient to decrease effort and allow the deviation from target to increase so that energy could be spent elsewhere. Addition, if budget can be saved, it might actually minimise the deviation from target even further by allowing a manager to draw from a larger budget when doing so is really necessary.
+%I will answer this question by implementing new features in GMSE, and assess the efficiency of management strategies using them.
+
+First, how can one assess the efficiency of a conservation strategy?
+Following the key features of MSE framework and GMSE model, I suggested that a policy is effective when, after the chosen period of management:
 % BD: Citation? I think these are good criteria, but are they really part of the framework, or did  you develop them yourself?x
 \begin{itemize}
     \item The population (i) does not go extinct and (ii) stabilizes around the conservation target.
@@ -417,12 +432,10 @@ According to MSE framework, a policy is effective when, after the chosen period 
 \end{itemize}
 If these condition are fulfilled, there should not be any reason left for conflict to persist.
 
-Currently in GMSE, a parameter sets the number of the manager's interventions per time step, and according to \cite{duthie2018}, the number of extinctions over several simulations decreases exponentially with increasing frequency of manager intervention.
-%So, I suspect it is going to show that doing nothing is not sustainable as a policy in itself. Surprise!
-But does this mean acting as soon as possible is always an efficient strategy?\\ % BD: This is good, and it might be useful to also think about what constitutes 'efficient strategy' in this case -- this will almost certainly relate to both the strategy objectives (e.g., how close to the target density do you want to be, or how much do you want to minimise the extinction risk) and the use of time and money (budget, perhaps in this case). You could make the argument that although a strategy might maintain the population most closely to the target density when a lot of effort is expended (in terms of time and money spent), the gains in terms of minimising the deviation from target become more expensive than they are worth in some cases, and it would therefore be more efficient to decrease effort and allow the deviation from target to increase so that energy could be spent elsewhere. Addition, if budget can be saved, it might actually minimise the deviation from target even further by allowing a manager to draw from a larger budget when doing so is really necessary.
-%I will answer this question by implementing new features in GMSE, and assess the efficiency of management strategies using them.
+Knowing this, I will implement 'doing nothing' as a new option in GMSE, as a bypass of policy updating under certain conditions at a given time step.
 
-To answer this, I will implement a `doing nothing' option in GMSE, as a bypass of policy updating under certain conditions at a given time step. % BD: I would make clear that this development is actually a new policy option, effectively, for the manager -- you're not just telling the simulatoin to do nothing, but allowing the manager to not set policy and instead save resources for future decision-making outcomes.
+% BD: I would make clear that this development is actually a new policy option, effectively, for the manager -- you're not just telling the simulatoin to do nothing, but allowing the manager to not set policy and instead save resources for future decision-making outcomes.
+
 The most intuitive condition would be the deviation of estimated population from the manager's target.
 For now, the manager updates the policy whenever they are meant to, even if the estimated population is only a few individuals away from the target.
 To loosen this condition, I will implement an action threshold $A$ based on $D$, the ratio of estimated population size to manager's target size.
@@ -438,7 +451,8 @@ For each $A$ value, I will gather different informations from the simulations, a
 	\item The mean variability in crop yield percentage across the different users, averaged over all the replicates.
 	\item The mean variability in the number of geese per land unit across the different users, averaged over all the replicates.
 \end{itemize}
-I will use these measures to compare the effectiveness of the management strategy according to the value of $A$, and eventually highlight the most efficient one.\\ % BD: This all looks good, but I would be surprised if any value of $A < 0$ would result in better management in the absence of some sort of trade-off. Even given the extreme scenario in which the manager's policy is already ideal and $D = 1$, the GA should then be able to find the same strategy that got to this situation of good management. If there's no cost to finding it again, then it's difficult to see how the option to look would decrease any of the above bullet points. My intuition would be that optimal $A$ would be most usefully defined in terms of the cost of changing policy.
+I will use these measures to compare the effectiveness of the management strategy according to the value of $A$, and eventually highlight the most efficient one.\\
+% BD: This all looks good, but I would be surprised if any value of $A < 0$ would result in better management in the absence of some sort of trade-off. Even given the extreme scenario in which the manager's policy is already ideal and $D = 1$, the GA should then be able to find the same strategy that got to this situation of good management. If there's no cost to finding it again, then it's difficult to see how the option to look would decrease any of the above bullet points. My intuition would be that optimal $A$ would be most usefully defined in terms of the cost of changing policy.
 
 I have also thought of another way to find an optimal value for $A$, involving a more dynamic way to set it during the conservation scheme period.
 The value of $A$ could be a Gaussian, or a two-tailed stair function, of a variable describing the situation ($|1-D|$ for example), centred on a maximum value for $A$.
@@ -449,7 +463,9 @@ From the simulation output, I will assess the evolution of the mean $A$ value ov
 This will eventually show the emergence of an optimal value for the action threshold according to the link-function's shape and parameters.\\
 
 Finally, an interesting feature to add to this exploration would be the ability for the manager to save some budget for next time step if she/he decided not to act this time step.
-I could assess the efficiency of the policy according to different percentages of budget saving, with the same method as previously. % BD: It could also be interesting to consider a trade-off between investment in policy implementation (under the conditions that you describe above) and investment in observation. Maybe in time steps where the cost is not used for implementing policy (because the population is close to target), more resources could be devoted to getting a more accurate estimate of the true population size (better observation model -- e.g., observe more space or mark-recapture more individuals).
+I could assess the efficiency of the policy according to different percentages of budget saving, with the same method as previously.
+
+% BD: It could also be interesting to consider a trade-off between investment in policy implementation (under the conditions that you describe above) and investment in observation. Maybe in time steps where the cost is not used for implementing policy (because the population is close to target), more resources could be devoted to getting a more accurate estimate of the true population size (better observation model -- e.g., observe more space or mark-recapture more individuals).
 %According to \cite{duthie2018}, the number of extinctions over several simulations decreases exponentially with increasing frequency of manager intervention. %So, I suspect it is going to show that doing nothing is not sustainable as a policy in itself. Surprise!
 %But does it means acting as soon as possible is is a sustainable strategy?
 
